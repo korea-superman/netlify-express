@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "i love me",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "build": "netlify-lambda build express",
+    "dev": "nodemon express/server.js"
   },
   "license": "ISC",
   "devDependencies": {
@@ -11,7 +12,10 @@
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
-    "nodemon": "^2.0.14"
+    "body-parser": "^1.19.0",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.14",
+    "serverless-http": "^2.7.0"
   },
   "dependencies": {
     "express": "^4.17.1",
