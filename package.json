@@ -4,7 +4,7 @@
   "description": "i love me",
   "scripts": {
     "build": "netlify-lambda build express",
-    "dev": "nodemon express/server.js"
+    "start": "nodemon server-local.js"
   },
   "license": "ISC",
   "devDependencies": {
